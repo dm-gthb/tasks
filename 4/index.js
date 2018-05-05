@@ -32,7 +32,6 @@ module.exports = function (command) {
       return;
     }
 
-    var newNote = newName + ': ' + phoneNumbersArrayToAdd.join(', ');
     phoneBook[newName] = phoneNumbersArrayToAdd.join(', ');
   }
 
